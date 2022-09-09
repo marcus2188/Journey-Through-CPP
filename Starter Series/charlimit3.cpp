@@ -33,16 +33,6 @@ int main(){
     // GLOBAL VS LOCAL VARIABLES, LOCAL CHECKED/USED FIRST BEFORE GLOBAL
     bool testedPositive = false;
     cout << "It is " << testedPositive << " that I have covid"<< endl;
-
-    // ARRAY INIT METHODS W/WO INIT VALUES
-    int testscores[10]; // no init values
-    bool gotCOVID[3] = {true, false, false}; // size and values init
-    double loc[] = {6.5, 7.777, 8}; // values init but no size stated
-    float movieRating[3][4];    // nd-array
-    cout << "The size in bytes of gotCOVID array is : " << sizeof(gotCOVID) << endl;
-    cout << "The second element in gotCOVID array is : " << gotCOVID[1] << endl;
-    cout << "If cout'ing uninitialised array, address of first element returned: " << testscores << endl;
-
     
     return 0;
 }
