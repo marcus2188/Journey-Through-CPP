@@ -56,6 +56,21 @@ int main(){
         cout << ' ' << *it; // How to iterate vectors
     }
 
+    // NEW WAYS TO ITERATE ACCESS ARRAYS AND VECTORS 
+    int scores[] {10, 20, 30, 40};
+    for(auto score: scores){
+        cout << score << endl;
+    }
+
+    vector<double> temps {74.2, 68.4, 59.8};
+    double avg_temp {0};
+    double total {0};
+    for(auto temp: temps) total += temp;
+    if(temps.size() != 0) avg_temp = total/temps.size();
+    cout << "Average temp is " << avg_temp << endl;
+
+
+
 
     
     
