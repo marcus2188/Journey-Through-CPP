@@ -1,6 +1,6 @@
 /*****************************************
  * THIS FILE CONTAINS A SIMPLE CONSOLE BASED APPLICATION IN C++
- * pizzashop
+ * pizzashop - A app that lets you order some pizzashop items and pay
  *****************************************/
 #include <iostream>
 #include <iomanip>  // make doubles 2 decimal places
