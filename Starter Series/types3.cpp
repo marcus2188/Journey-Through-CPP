@@ -1,6 +1,6 @@
 /*****************************************
  * THIS FILE SUMMARISES THE ENTIRE C++ BASIC SYNTAX WITH MULTIPLE ENTRIES
- * CHARLIMIT 3
+ * TYPES 3
  *****************************************/
 #include <iostream>
 #include <climits>  // contains primitive info about data types
@@ -34,5 +34,17 @@ int main(){
     bool testedPositive = false;
     cout << "It is " << testedPositive << " that I have covid"<< endl;
     
+    // TYPEDEF CHANGING TYPE NAMES
+    typedef bool myownbooltype;     // You can clone out existing types into your own
+    myownbooltype tested = true;
+
+    // ENUMS AND ALL
+    enum color{red, blue, green, yellow = 4, orange}; // declare in curly brackets comma seperated
+    color c1 = green;   // if no value, use index from left
+    color c2 = yellow;  // value will be explicit
+    color c3 = orange;  // value follows any explicit after that
+    cout << "enum color c1 is value " << c1 << endl;
+    cout << "enum color c2 is value " << c2 << endl;
+    cout << "enum color c3 is value " << c3 << endl;
     return 0;
 }
