@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  pizzashop:
+    tty: true
+    stdin_open: true
+    image: dexter1x/pizzashop
+    build:
+      context: "./App Series"
+      dockerfile: Dockerfile
+         

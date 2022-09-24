@@ -1,0 +1,10 @@
+{
+    "account" : {
+        "_id" : "58a77186e8b26df363d40195",
+        "email" : "mail@mail.com",
+        "password" : "password123",
+        "fullName" : "Ola",
+        "interests" : ["football", "baseball"],
+        "__v" : 0
+    }
+}
